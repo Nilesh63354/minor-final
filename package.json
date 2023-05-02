@@ -1,0 +1,27 @@
+{
+  "name": "minor-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilesh63354/minor-final.git"
+  },
+  "author": "Nilesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nilesh63354/minor-final/issues"
+  },
+  "homepage": "https://github.com/Nilesh63354/minor-final#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
