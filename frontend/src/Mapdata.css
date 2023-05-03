@@ -1,0 +1,15 @@
+.Mapdata-content {
+    flex-direction: column;
+}
+
+.Table {
+    contain: content;
+}
+
+.Mapdata-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 800px;
+
+}

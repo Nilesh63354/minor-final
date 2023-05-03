@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+.Homepage {
+    min-height: 100vh;
+    display: flex;
+    /* background-image: url("./background.jpg"); */
+    background-color: black;
+    background-size: 70%;
+    background-position: center;
+    /* color: black; */
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.tex {
+    font-family: 'Darumadrop One',
+        cursive;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.cen {
+    border-radius: 10px;
+    /* w={'98%'}
+            bg={'green'}
+            borderRadius={'lg'}
+            color={'black'}
+            borderWidth={'1px'}
+            padding={'15px'}
+            justifyContent={'center'} */
+    background: #97f75fad;
+    width: 350px;
+    height: 30px;
+    margin-left: 38.5%;
+}
+
+.t {
+    margin-left: 43%;
+    padding-top: 5px;
+    color: rgba(30, 30, 30, 0.486);
+    font-weight: 900;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

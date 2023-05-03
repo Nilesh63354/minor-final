@@ -1,6 +1,7 @@
-import { Box, Container, Text, Tabs, Tab, TabList, TabPanels, TabPanel } from '@chakra-ui/react'
+import { Box, Container, Text } from '@chakra-ui/react'
 import React from 'react'
 import Login from '../components/authentication/Login'
+import '../pages/Homepage.css'
 
 const Homepage = () => {
   return (
@@ -14,7 +15,7 @@ const Homepage = () => {
         m={'40px 0 15px 0'}
         borderRadius={'lg'}
         borderWidth={'1px'}>
-            <Text fontSize={'4xl'}  color={'black'}>BookisH</Text>
+            <Text className='tex' fontSize={'4xl'}  color={'black'}>BookisH</Text>
         </Box>
         <Box 
         bg={'white'}
@@ -23,17 +24,10 @@ const Homepage = () => {
         color={'black'}
         borderWidth={'1px'}
         padding={'15px'}>
-            <Box 
-            w={'98%'}
-            bg={'green'}
-            borderRadius={'lg'}
-            color={'black'}
-            borderWidth={'1px'}
-            padding={'15px'}
-            justifyContent={'center'}
-            
+            <Box
+            className='cen'
             >
-                <Text fontSize={'15px'} fontFamily={'Work sans'} color={'black'}  >Login Here</Text>
+                <Text className='t'>Login Here</Text>
             </Box>
             <Login/>
         </Box>
